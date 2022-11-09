@@ -52,10 +52,12 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               //Phone key
-
+              SizedBox(
+                height: 100,
+              ),
               SizedBox(
                 width: double.infinity,
-                height: 200,
+                height: 250,
                 child: GridView(
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 3),
@@ -64,8 +66,14 @@ class HomePage extends StatelessWidget {
                     Container(
                       child: Column(
                         children: [
-                          Icon(CupertinoIcons.mic_slash_fill),
-                          Text("Mute")
+                          Icon(
+                            CupertinoIcons.mic_off,
+                            size: 40,
+                          ),
+                          SizedBox(
+                            height: 20,
+                          ),
+                          Text("Mute", style: TextStyle(fontSize: 15))
                         ],
                       ),
                     ),
@@ -73,8 +81,14 @@ class HomePage extends StatelessWidget {
                     Container(
                       child: Column(
                         children: [
-                          Icon(CupertinoIcons.circle_grid_3x3_fill),
-                          Text("Keypad")
+                          Icon(
+                            CupertinoIcons.circle_grid_3x3_fill,
+                            size: 40,
+                          ),
+                          SizedBox(
+                            height: 20,
+                          ),
+                          Text("Keypad", style: TextStyle(fontSize: 15))
                         ],
                       ),
                     ),
@@ -82,8 +96,14 @@ class HomePage extends StatelessWidget {
                     Container(
                       child: Column(
                         children: [
-                          Icon(CupertinoIcons.speaker_2_fill),
-                          Text("Speaker")
+                          Icon(
+                            CupertinoIcons.speaker_2,
+                            size: 40,
+                          ),
+                          SizedBox(
+                            height: 20,
+                          ),
+                          Text("Speaker", style: TextStyle(fontSize: 15))
                         ],
                       ),
                     ),
@@ -91,8 +111,14 @@ class HomePage extends StatelessWidget {
                     Container(
                       child: Column(
                         children: [
-                          Icon(CupertinoIcons.phone_fill_badge_plus),
-                          Text("Add call")
+                          Icon(
+                            CupertinoIcons.phone_badge_plus,
+                            size: 40,
+                          ),
+                          SizedBox(
+                            height: 20,
+                          ),
+                          Text("Add call", style: TextStyle(fontSize: 15))
                         ],
                       ),
                     ),
@@ -100,8 +126,14 @@ class HomePage extends StatelessWidget {
                     Container(
                       child: Column(
                         children: [
-                          Icon(CupertinoIcons.video_camera_solid),
-                          Text("Video call")
+                          Icon(
+                            CupertinoIcons.video_camera,
+                            size: 40,
+                          ),
+                          SizedBox(
+                            height: 20,
+                          ),
+                          Text("Video call", style: TextStyle(fontSize: 15))
                         ],
                       ),
                     ),
@@ -109,8 +141,14 @@ class HomePage extends StatelessWidget {
                     Container(
                       child: Column(
                         children: [
-                          Icon(CupertinoIcons.pause_fill),
-                          Text("Hold")
+                          Icon(
+                            CupertinoIcons.pause_fill,
+                            size: 40,
+                          ),
+                          SizedBox(
+                            height: 20,
+                          ),
+                          Text("Hold", style: TextStyle(fontSize: 15))
                         ],
                       ),
                     ),
