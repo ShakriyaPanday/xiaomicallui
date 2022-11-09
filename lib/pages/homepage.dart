@@ -17,11 +17,11 @@ class HomePage extends StatelessWidget {
                 child: Column(
                   children: [
                     SizedBox(
-                      height: 10,
+                      height: 30,
                     ),
                     Container(
                       decoration: BoxDecoration(
-                          color: Colors.deepOrange[300],
+                          color: Colors.deepOrange[400],
                           borderRadius: BorderRadius.circular(50)),
                       height: 100,
                       width: 100,
@@ -153,6 +153,24 @@ class HomePage extends StatelessWidget {
                       ),
                     ),
                   ],
+                ),
+              ),
+              //End call button
+              SizedBox(
+                height: 100,
+              ),
+              Container(
+                decoration: BoxDecoration(
+                    color: Colors.red[800],
+                    borderRadius: BorderRadius.circular(50)),
+                child: Padding(
+                  padding: const EdgeInsets.all(10.0),
+                  child: Icon(
+                    // CupertinoIcons.phone_down_fill,
+                    Icons.local_phone_outlined,
+                    color: Colors.white,
+                    size: 50,
+                  ),
                 ),
               )
             ],

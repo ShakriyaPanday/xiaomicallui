@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "PhoneUI",
-      theme: ThemeData(scaffoldBackgroundColor: Colors.grey[200]),
+      theme: ThemeData(scaffoldBackgroundColor: Colors.grey[300]),
       home: HomePage(),
     );
   }
